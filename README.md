@@ -7,7 +7,7 @@ mail: puja.archana21@gmail.com
 The problem includes various banknotes which needs to classified as authetic or not. The data set was taken from UCI repository.
 
 **Model Architecture**
-The neural network architecture that has been designed for this problem includes 3 layers i.e  one input layer, one hidden layer and one output layer. The input layer contains 8 neurons, the hidden layer contains 32 neurons and the output layer contains one neuron, which predicts the bank note is authenticated or not. This is designed using Keras. The model summary is depicted below. this includes the no of parameters(weights and biases) and the hyperparameters(no. of hidden layers, no of neurons in each layers etc).
+The neural network architecture that has been designed for this problem includes 3 layers i.e  one input layer, one hidden layer and one output layer. The input layer contains 8 neurons, the hidden layer contains 32 neurons and the output layer contains one neuron, which predicts the bank note is authenticated or not. This is designed using Keras. The model summary is depicted below. This includes the no of parameters(weights and biases) and the hyperparameters(no. of hidden layers, no of neurons in each layers etc).
 ![Model Summary](https://github.com/Puja-Archana/Happymonk-assignment/blob/main/model_summary.PNG)
 
 
