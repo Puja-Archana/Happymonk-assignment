@@ -1,5 +1,6 @@
 # Happymonk-assignment
 Name: Puja Archana Sahu
+
 mail: puja.archana21@gmail.com
 
 **Problem Statement**:
@@ -7,13 +8,8 @@ The problem includes various banknotes which needs to classified as authetic or 
 
 **Model Architecture**
 The neural network architecture that has been designed for this problem includes 3 layers i.e  one input layer, one hidden layer and one output layer. The input layer contains 8 neurons, the hidden layer contains 32 neurons and the output layer contains one neuron, which predicts the bank note is authenticated or not. This is designed using Keras. The model summary is depicted below. this includes the no of parameters(weights and biases) and the hyperparameters(no. of hidden layers, no of neurons in each layers etc).
+![Relu function](https://github.com/Puja-Archana/Happymonk-assignment/blob/main/model_summary.PNG)
 
-Model: "sequential"
-
-Total params: 361
-Trainable params: 361
-Non-trainable params: 0
-_________________________________________________________________
 
 I have used relu activation function for the first two layers and sigmoid activation function for the output layer as this problem was a binary classification task.
 
@@ -28,7 +24,7 @@ I have used relu activation function for the first two layers and sigmoid activa
 
 
 **Relu**
-![Relu function](2.png)
+![Relu function](https://github.com/Puja-Archana/Happymonk-assignment/blob/main/2.PNG)
 - The ReLU is the most used activation function in the world right now.Since, it is used in almost all the convolutional neural networks or deep learning.
 - As you can see, the ReLU is half rectified (from bottom). f(z) is zero when z is less than zero and f(z) is equal to z when z is above or equal to zero.
 - Range: [ 0 to infinity)
@@ -37,4 +33,5 @@ I have used relu activation function for the first two layers and sigmoid activa
 
 **Result**
 - F1 score was found to be 1.
+- ![Relu function](https://github.com/Puja-Archana/Happymonk-assignment/blob/main/4.PNG)
 - A heat map of the confusion matrix was made to sjow the reults.
