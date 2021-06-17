@@ -18,7 +18,7 @@ _________________________________________________________________
 I have used relu activation function for the first two layers and sigmoid activation function for the output layer as this problem was a binary classification task.
 
 **Sigmoid or Logistic Activation Function**
-![Sigmoid function](1.png)
+![Sigmoid function](https://github.com/Puja-Archana/Happymonk-assignment/blob/main/1.PNG)
 - The Sigmoid Function curve looks like a S-shape.
 - The main reason why we use sigmoid function is because it exists between (0 to 1). Therefore, it is especially used for models where we have to predict the probability as an output. Since probability of anything exists only between the range of 0 and 1, sigmoid is the right choice.
 - The function is differentiable. That means, we can find the slope of the sigmoid curve at any two points.
